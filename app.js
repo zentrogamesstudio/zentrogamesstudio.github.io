@@ -18,6 +18,7 @@ function apply(l){
   document.querySelectorAll('[data-i]').forEach(function(e){var k=e.getAttribute('data-i');e.textContent=t[k]||en[k]});
   document.querySelectorAll('[data-ialt]').forEach(function(e){var k=e.getAttribute('data-ialt');e.setAttribute('alt',t[k]||en[k])});
   document.title=l==='en'?'Zentro Games | Multiply Mayhem':'Zentro Games | Multiply Mayhem';
+  try{document.dispatchEvent(new CustomEvent('zg:lang'))}catch(e){}
 }
 sel.addEventListener('change',function(){try{localStorage.setItem('zg_lang',sel.value)}catch(e){}apply(sel.value)});
 apply(cur);

@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script>document.documentElement.className+=" js"</script>
 <title>Zentro Games | Multiply Mayhem</title>
 <meta name="description" content="Zentro Games is an independent studio in Azerbaijan. Multiply Mayhem: run through the gates, grow your army and win the battle at the finish line. No ads, no account.">
 <meta name="theme-color" content="#fbf8f1">
@@ -28,6 +29,7 @@
 </script>
 </head>
 <body>
+<div class="prog" aria-hidden="true"></div>
 <a class="skip" href="#top" data-i="skip">Skip to content</a>
 <header class="top">
   <a class="brand" href="#top"><img src="icon-192.png" width="36" height="36" alt=""><span>Zentro Games</span></a>
@@ -47,15 +49,16 @@
 
 <main id="top">
   <section class="hero wrap" id="game">
+    <div class="hero-bg" aria-hidden="true"><i class="sh a" data-k=".10">&times;</i><i class="sh b" data-k=".18">+</i><i class="sh c" data-k=".06">&times;</i><i class="sh d" data-k=".14">&divide;</i><i class="sh e" data-k=".22">+</i></div>
     <div class="hero-text">
-      <p class="eyebrow" data-i="eyebrow">A mobile game by Zentro Games</p>
-      <h1>Multiply Mayhem</h1>
-      <p class="lead" data-i="lead">Run through the gates, grow your army and win the battle at the finish line.</p>
-      <p class="cta-row">
+      <p class="eyebrow ld" style="--i:0" data-i="eyebrow">A mobile game by Zentro Games</p>
+      <h1><span class="w"><span style="--i:1">Multiply</span></span> <span class="w"><span style="--i:2">Mayhem</span></span></h1>
+      <p class="lead ld" style="--i:3" data-i="lead">Run through the gates, grow your army and win the battle at the finish line.</p>
+      <p class="cta-row ld" style="--i:4">
         <span class="store" aria-disabled="true"><b data-i="store_a">Google Play</b><small data-i="store_b">Coming soon</small></span>
         <a class="ghost" href="#contact" data-i="cta_contact">Get in touch</a>
       </p>
-      <p class="fine" data-i="fine">No account needed. Your progress stays on your phone.</p>
+      <p class="fine ld" style="--i:5" data-i="fine">No account needed. Your progress stays on your phone.</p>
     </div>
     <div class="shots">
       <img class="s1" src="shot-run.jpg" width="270" height="480" alt="Running an army through multiplication gates" data-ialt="alt_run">
@@ -63,6 +66,8 @@
       <img class="s3" src="shot-battle.jpg" width="270" height="480" alt="Two armies fighting at the end of a level" data-ialt="alt_battle">
     </div>
   </section>
+
+  <div class="lane" aria-hidden="true"><canvas id="lane"></canvas></div>
 
   <section class="features wrap">
     <h2 data-i="f_title">How it plays</h2>
@@ -137,5 +142,6 @@
   <span><a href="privacy.html" data-i="f_privacy">Privacy Policy</a> &middot; <a href="terms.html" data-i="f_terms">Terms</a></span>
 </footer>
 <script src="app.js"></script>
+<script src="fx.js"></script>
 </body>
 </html>
