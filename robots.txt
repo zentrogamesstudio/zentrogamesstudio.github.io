@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zentrogames.github.io/sitemap.xml
