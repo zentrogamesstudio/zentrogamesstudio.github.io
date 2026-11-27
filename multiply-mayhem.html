@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>document.documentElement.className+=" js"</script>
+<title>Multiply Mayhem | Zentro Games</title>
+<meta name="description" content="Multiply Mayhem is a mobile army-runner by Zentro Games. Pick the right gates, win the battle, build your village and duel a friend. No ads, no account.">
+<meta name="theme-color" content="#fbf8f1">
+<link rel="canonical" href="https://zentrogames.github.io/multiply-mayhem.html">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zentro Games">
+<meta property="og:title" content="Multiply Mayhem | Zentro Games">
+<meta property="og:description" content="Multiply Mayhem is a mobile army-runner by Zentro Games. Pick the right gates, win the battle, build your village and duel a friend. No ads, no account.">
+<meta property="og:url" content="https://zentrogames.github.io/multiply-mayhem.html">
+<meta property="og:image" content="https://zentrogames.github.io/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Multiply Mayhem: an army running through multiplication gates">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://zentrogames.github.io/#org","name":"Zentro Games","url":"https://zentrogames.github.io/","logo":"https://zentrogames.github.io/icon-512.png","email":"zentrogames.studio@gmail.com","address":{"@type":"PostalAddress","addressCountry":"AZ"}},{"@type":"VideoGame","name":"Multiply Mayhem","url":"https://zentrogames.github.io/multiply-mayhem.html","image":"https://zentrogames.github.io/og.jpg","applicationCategory":"GameApplication","operatingSystem":"Android","publisher":{"@id":"https://zentrogames.github.io/#org"},"inLanguage":["en","tr","es","fr","de","ru","az"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://zentrogames.github.io/"},{"@type":"ListItem","position":2,"name":"Games","item":"https://zentrogames.github.io/games.html"},{"@type":"ListItem","position":3,"name":"Multiply Mayhem","item":"https://zentrogames.github.io/multiply-mayhem.html"}]}]}
+</script>
+</head>
+<body>
+<div class="prog" aria-hidden="true"></div>
+<a class="skip" href="#top" data-i="skip">Skip to content</a>
+<header class="top">
+  <a class="brand" href="index.html"><img src="icon-192.png" width="36" height="36" alt=""><span>Zentro Games</span></a>
+  <label class="lang"><span class="sr" data-i="lang_label">Language</span>
+    <select id="lang">
+      <option value="en">English</option><option value="tr">T&uuml;rk&ccedil;e</option><option value="es">Espa&ntilde;ol</option>
+      <option value="fr">Fran&ccedil;ais</option><option value="de">Deutsch</option><option value="ru">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</option><option value="az">Az&#601;rbaycanca</option>
+    </select>
+  </label>
+  <nav aria-label="Main menu" data-ial="ar_main">
+    <a href="games.html" aria-current="page" data-i="nav_games">Games</a>
+    <a href="about.html" data-i="nav_about">About</a>
+    <a href="news.html" data-i="nav_news">News</a>
+    <a href="faq.html" data-i="nav_faq">FAQ</a>
+    <a href="contact.html" data-i="nav_contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <div class="hero-bg" aria-hidden="true"><i class="sh a" data-k=".10">&times;</i><i class="sh b" data-k=".18">+</i><i class="sh c" data-k=".06">&times;</i><i class="sh d" data-k=".14">&divide;</i><i class="sh e" data-k=".22">+</i></div>
+    <div class="hero-text">
+      <nav class="crumbs" aria-label="Breadcrumb" data-ial="ar_bc"><a href="index.html" data-i="bc_home">Home</a><i aria-hidden="true">/</i><a href="games.html"><span data-i="nav_games">Games</span></a><i aria-hidden="true">/</i><span aria-current="page"><span>Multiply Mayhem</span></span></nav>
+      <p class="eyebrow ld" style="--i:0" data-i="eyebrow">A mobile game by Zentro Games</p>
+      <h1 class="split">Multiply Mayhem</h1>
+      <p class="lead ld" style="--i:3" data-i="lead">Run through the gates, grow your army and win the battle at the finish line.</p>
+      <p class="cta-row ld" style="--i:4"><span class="store" aria-disabled="true"><b data-i="store_a">Google Play</b><small data-i="store_b">Coming soon</small></span> <a class="ghost" href="presskit.zip" download data-i="ft_kit">Press kit</a></p>
+      <p class="fine ld" style="--i:5" data-i="fine">No account needed. Your progress stays on your phone.</p>
+    </div>
+    <div class="shots">
+      <img class="s1" src="shot-run.jpg" width="270" height="480" alt="Running an army through multiplication gates" data-ialt="alt_run">
+      <img class="s2" src="shot-map.jpg" width="270" height="480" alt="Level map in Multiply Mayhem" data-ialt="alt_menu">
+      <img class="s3" src="shot-battle.jpg" width="270" height="480" alt="Two armies fighting at the end of a level" data-ialt="alt_battle">
+    </div>
+  </section>
+
+  <div class="lane" aria-hidden="true"><canvas id="lane"></canvas></div>
+
+  <section class="stats wrap"><div class="stats-in"><div class="stat" data-rv><b data-count="5">5</b><span data-i="st1_l">worlds</span></div><div class="stat" data-rv><b data-count="11">11</b><span data-i="st2_l">village buildings</span></div><div class="stat" data-rv><b data-count="6">6</b><span data-i="st3_l">soldier types</span></div><div class="stat" data-rv><b data-count="7">7</b><span data-i="st4_l">languages</span></div></div></section>
+
+
+  <section class="features wrap">
+    <h2 data-rv data-i="m_in_t">In short</h2>
+    <ol><li data-rv><h3 data-i="f1_h">Multiply your army</h3><p data-i="f1_p">Pick the right gate. Multiplying and adding gates grow your crowd, traps and minus gates shrink it.</p></li><li data-rv><h3 data-i="f2_h">A real battle at the end</h3><p data-i="f2_p">Your crowd meets the enemy army. Place your squads before the fight, then attack, defend or retreat.</p></li><li data-rv><h3 data-i="f3_h">Build your village</h3><p data-i="f3_p">Upgrade the barracks, hospital and blacksmith, and unlock new soldier types.</p></li><li data-rv><h3 data-i="f4_h">Duel a friend</h3><p data-i="f4_p">Play online from phone to phone, without a game server.</p></li><li data-rv><h3 data-i="f5_h">Seven languages</h3><p data-i="f5_p">English, Turkish, Spanish, French, German, Russian and Azerbaijani.</p></li></ol>
+  </section>
+
+  <section class="det wrap">
+    <h2 data-rv data-i="m_det_t">In detail</h2>
+    <div class="row">
+      <div class="vis" data-rv><img class="a" src="shot-run.jpg" width="270" height="480" loading="lazy" data-par=".035" alt="Running an army through multiplication gates" data-ialt="alt_run"><img class="b" src="shot-map.jpg" width="270" height="480" loading="lazy" data-par=".08" alt="Level map in Multiply Mayhem" data-ialt="alt_menu"></div>
+      <div class="txt" data-rv><p class="num">01</p><h3 data-i="m1_h">Run, steer, multiply</h3><p data-i="m1_p">Drag to steer your crowd through the gates. Multiplying and adding gates make the crowd bigger, traps and minus gates make it smaller. Pull your finger down to brake, and double-tap for a speed boost.</p><ul class="blist"><li data-i="m1_b1">Five worlds: Sunny Meadow, Desert Rush, Frozen Peaks, Candy Land and Night Volcano.</li><li data-i="m1_b2">A chest waits every third level, and an epic chest every fifth.</li><li data-i="m1_b3">Earn one to three stars on every level.</li></ul></div>
+    </div>
+    <div class="row flip">
+      <div class="vis" data-rv><img class="a" src="shot-battle.jpg" width="270" height="480" loading="lazy" data-par=".035" alt="Two armies fighting at the end of a level" data-ialt="alt_battle"><img class="b" src="shot-book.jpg" width="270" height="480" loading="lazy" data-par=".08" alt="The Enemy Book with grunt, shield bearer, archer and gunner" data-ialt="alt_book"></div>
+      <div class="txt" data-rv><p class="num">02</p><h3 data-i="m2_h">A real battle at the finish line</h3><p data-i="m2_p">Your crowd meets the enemy army. Before the fight you place your squads on the field, then you attack, defend or retreat.</p><ul class="blist"><li data-i="m2_b1">Eight enemy types, listed in the Enemy Book.</li><li data-i="m2_b2">A boss guards every fifth level.</li></ul></div>
+    </div>
+    <div class="row">
+      <div class="vis" data-rv><img class="a one" src="shot-formations.jpg" width="270" height="480" loading="lazy" data-par=".04" alt="Formations screen with Swarm and Phalanx" data-ialt="alt_forms"></div>
+      <div class="txt" data-rv><p class="num">03</p><h3 data-i="m3_h">Choose your formation</h3><p data-i="m3_p">Your crowd can run as a loose swarm or in a shape that gives it an edge. Each shape has its own bonus.</p><ul class="blist"><li data-i="m3_b1">Phalanx: fewer losses from obstacles.</li><li data-i="m3_b2">Spearhead: more running speed.</li><li data-i="m3_b3">Ring: wider pickup reach.</li><li data-i="m3_b4">Diamond: stronger soldiers.</li></ul></div>
+    </div>
+    <div class="row flip">
+      <div class="vis" data-rv><img class="a one" src="shot-village.jpg" width="270" height="480" loading="lazy" data-par=".04" alt="The village where you build a barracks, hospital and more" data-ialt="alt_village"></div>
+      <div class="txt" data-rv><p class="num">04</p><h3 data-i="m4_h">Build your village</h3><p data-i="m4_p">After level 5 your village opens. Upgrade its buildings, train new soldier types and make your army stronger between levels.</p><ul class="blist"><li data-i="m4_b1">Eleven buildings: Barracks, Hospital, Blacksmith, Shield Hut, Archery Range, Gunner Camp, Mage Tower, Tank Factory, Meeting Room, Gold Mine and Gem Mine.</li><li data-i="m4_b2">Six soldier types: swordsmen, archers, gunners, mages, shield soldiers and tanks.</li></ul></div>
+    </div>
+    <div class="online">
+      <div class="on-head" data-rv><p class="num">05</p><h3 data-i="f4_h">Duel a friend</h3><p data-i="m5_p">Online duels unlock at level 10. There is no game server: the two phones connect directly to each other.</p></div>
+      <div class="cards">
+        <div data-rv><h4 data-i="m5a_h">Two game modes</h4><p data-i="m5a_p">Crowd Runner and Direct Fight. In Direct Fight your squads march in formation and meet the enemy head on, and you can split a squad in two mid-fight. Armies range from 500 to 4,000 troops.</p></div>
+        <div data-rv><h4 data-i="m5b_h">Ways to connect</h4><p data-i="m5b_p">A shared code over the internet or the same Wi-Fi. Wi-Fi Direct and Bluetooth connect nearby Android phones with no internet. Bluetooth is slower, so the battle updates less often.</p></div>
+        <div data-rv><h4 data-i="m5c_h">During the match</h4><p data-i="m5c_p">Choose the battlefield, chat with emoji and surrender if the fight turns against you.</p></div>
+      </div>
+    </div>
+    <div class="duo">
+      <div data-rv><p class="num">06</p><h3 data-i="m6_h">Rewards and extras</h3><p data-i="m6_p">Daily missions, achievements and a five-day login reward give you a reason to come back.</p><ul class="blist"><li data-i="m6_b1">Lucky Spin, with the odds shown in the game.</li><li data-i="m6_b2">Skins that change how your crowd looks.</li><li data-i="m6_b3">Six music sets: the default, Arcade, Chill, Epic, Synth and Folk.</li></ul></div>
+      <div data-rv><p class="num">07</p><h3 data-i="m7_h">Your progress is yours</h3><p data-i="m7_p">No account is needed. Your progress is saved on your phone. In Settings, Get code gives you a backup code, and Enter code on any phone brings your progress back. Reset progress clears it.</p></div>
+    </div>
+  </section>
+
+  <section class="band" id="shots" aria-labelledby="shots-h">
+    <div class="wrap"><h2 id="shots-h" data-rv data-i="g_title">Screenshots</h2></div>
+    <div class="reel" tabindex="0" role="region" aria-labelledby="shots-h">
+      <img src="shot-run.jpg" width="270" height="480" loading="lazy" alt="Running an army through multiplication gates" data-ialt="alt_run"><img src="shot-battle.jpg" width="270" height="480" loading="lazy" alt="Two armies fighting at the end of a level" data-ialt="alt_battle"><img src="shot-map.jpg" width="270" height="480" loading="lazy" alt="Level map in Multiply Mayhem" data-ialt="alt_menu"><img src="shot-village.jpg" width="270" height="480" loading="lazy" alt="The village where you build a barracks, hospital and more" data-ialt="alt_village"><img src="shot-formations.jpg" width="270" height="480" loading="lazy" alt="Formations screen with Swarm and Phalanx" data-ialt="alt_forms"><img src="shot-book.jpg" width="270" height="480" loading="lazy" alt="The Enemy Book with grunt, shield bearer, archer and gunner" data-ialt="alt_book">
+    </div>
+  </section>
+
+  <section class="facts wrap">
+    <h2 data-rv data-i="g_facts">At a glance</h2>
+    <dl class="facts5"><div data-rv><dt data-i="fk1">Platform</dt><dd data-i="fv1">Android</dd></div><div data-rv><dt data-i="fk2">Status</dt><dd data-i="fv2">Coming soon to Google Play</dd></div><div data-rv><dt data-i="fk3">Modes</dt><dd data-i="fv3">Single player and online duels for two</dd></div><div data-rv><dt data-i="fk4">Languages</dt><dd data-i="fv4">English, Turkish, Spanish, French, German, Russian, Azerbaijani</dd></div><div data-rv><dt data-i="fk5">Ads and purchases</dt><dd data-i="fv5">None. No ads, no in-app purchases</dd></div></dl>
+  </section>
+
+  <section class="cta">
+  <div class="cta-in wrap">
+    <div class="cta-txt"><h2 data-rv data-i="fv2">Coming soon to Google Play</h2><p data-rv data-i="m_cta_p">We will announce the release date on the news page.</p></div>
+    <div class="cta-act" data-rv><a class="btn sun" href="news.html" data-i="nav_news">News</a> <a class="ghost light" href="presskit.zip" download data-i="ft_kit">Press kit</a></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <div class="ft-in wrap">
+    <div class="ft-brand">
+      <a class="brand" href="index.html"><img src="icon-192.png" width="36" height="36" alt=""><span>Zentro Games</span></a>
+      <p data-i="ft_tag">Independent mobile games from Azerbaijan.</p>
+      <a class="mail" href="mailto:zentrogames.studio@gmail.com">zentrogames.studio@gmail.com</a>
+    </div>
+    <div class="ft-col"><h4 data-i="ft_studio">Studio</h4><ul>
+      <li><a href="about.html" data-i="nav_about">About</a></li>
+      <li><a href="news.html" data-i="nav_news">News</a></li>
+      <li><a href="faq.html" data-i="nav_faq">FAQ</a></li>
+      <li><a href="contact.html" data-i="nav_contact">Contact</a></li></ul></div>
+    <div class="ft-col"><h4 data-i="ft_game">Game</h4><ul>
+      <li><a href="multiply-mayhem.html">Multiply Mayhem</a></li>
+      <li><a href="games.html" data-i="nav_games">Games</a></li>
+      <li><a href="presskit.zip" download data-i="ft_kit">Press kit</a></li></ul></div>
+    <div class="ft-col"><h4 data-i="ft_legal">Legal</h4><ul>
+      <li><a href="privacy.html" data-i="f_privacy">Privacy Policy</a></li>
+      <li><a href="terms.html" data-i="f_terms">Terms</a></li></ul></div>
+  </div>
+  <p class="ft-copy wrap">&copy; 2026 Zentro Games</p>
+</footer>
+<script src="app.js"></script>
+<script src="fx.js"></script>
+</body>
+</html>

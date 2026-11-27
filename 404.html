@@ -3,12 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script>document.documentElement.className+=" js"</script>
 <title>Zentro Games | 404</title>
 <meta name="robots" content="noindex">
 <link rel="icon" href="/favicon.png">
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+<a class="skip" href="#top" data-i="skip">Skip to content</a>
 <header class="top">
   <a class="brand" href="/"><img src="/icon-192.png" width="36" height="36" alt=""><span>Zentro Games</span></a>
   <label class="lang"><span class="sr" data-i="lang_label">Language</span>
@@ -17,11 +19,18 @@
       <option value="fr">Fran&ccedil;ais</option><option value="de">Deutsch</option><option value="ru">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</option><option value="az">Az&#601;rbaycanca</option>
     </select>
   </label>
+  <nav aria-label="Main menu" data-ial="ar_main">
+    <a href="/games.html" data-i="nav_games">Games</a>
+    <a href="/about.html" data-i="nav_about">About</a>
+    <a href="/news.html" data-i="nav_news">News</a>
+    <a href="/faq.html" data-i="nav_faq">FAQ</a>
+    <a href="/contact.html" data-i="nav_contact">Contact</a>
+  </nav>
 </header>
-<main class="nf wrap">
+<main id="top" class="nf wrap">
   <h1 data-i="e_title">Page not found</h1>
   <p data-i="e_p">This page does not exist.</p>
-  <p><a class="ghost" href="/" data-i="e_btn">Back to the home page</a></p>
+  <p><a class="btn" href="/" data-i="e_btn">Back to the home page</a></p>
 </main>
 <script src="/app.js"></script>
 </body>
